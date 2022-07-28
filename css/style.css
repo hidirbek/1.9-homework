@@ -1,0 +1,288 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1440px;
+    height: 4805px;
+    margin: auto;
+}
+.navbar{
+    width: 1440px;
+    height: 90px;
+    border-bottom: 1px solid #E6E6E6;
+}
+.nav-list{
+    margin: auto;
+    width: 1200px;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+}
+.nav-item{
+    /* width: 48px; */
+}
+.nav-link+.nav-link{
+    margin-left: 40px;
+}
+.nav-link{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    font-family: 'Libre Franklin', sans-serif;
+    color: #000000;
+}
+.hero{
+    margin:60px auto 35px auto;
+    width: 1200px;
+    height: 472px;
+    display: flex;
+    justify-content: space-between;
+}
+.hero-text{
+    width: 429px;
+    height: 342px;
+}
+.hero-illus{
+    width: 90px;
+    margin-bottom: 18px;
+}
+.hero-title{
+    width: 429px;
+    font-family: 'Tenor Sans', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    text-transform: uppercase;
+    color: #000000;
+}
+.hero-para{
+    margin: 27px 0;
+    width: 419px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #666666;
+    font-family: 'Source Serif Pro', serif;
+}
+.main-part-one{
+    width: 1220px;
+    height: 963px;
+    margin:auto;
+}
+.part-one-list{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+.part-one-item{
+    width: 406px;
+    height: 481px;
+}
+.photo-type{
+    width: 131px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #999999;
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+
+}
+.photo-title{
+    margin: 10px 0;
+    width: 380px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    font-family: 'Tenor Sans', sans-serif;
+}
+.photographer{
+    font-family: 'Libre Franklin', sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+}
+.main-line{
+    width: 1200px;
+    height: 1px;
+    background: #E6E6E6;
+    margin: 65px auto 90px auto;
+}
+.latest-posts{
+    margin: auto;
+    width: 1200px;
+    height: 1014px;
+}
+.latestp-title{
+
+}
+.latestp-list{
+    width: 1200px;
+    height: 878px;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-around;
+}
+.latestp-item{
+
+}
+.latestp-title{
+    width: 280px;
+}
+.latestp-div{
+    width: 1200px;
+    height: 972px;
+}
+.main-btn{
+    margin: 65px 0px 0px 498px;
+    width: 205px;
+    padding:21px 26px ;
+    background: none;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    font-family: 'Libre Franklin', sans-serif;
+}
+.main-btn:focus{
+    background: #E6E6E6;
+}
+.featured-posts{
+    margin: auto;
+    width: 1200px;
+    height: 1126px;
+}
+.featuredp-list{
+    margin-top: 30px;
+    width: 1220px;
+    height: 1134px;
+    display: flex;
+    flex-wrap:wrap;
+    list-style: none;
+    justify-content: space-around;
+
+}
+.featuredp-item{
+    width: 610px;
+    height: 567px;
+}
+.featuredp-title{
+    width: 543px;
+}
+.footer{
+    margin: 90px auto 0 auto;
+    width: 1440px;
+    height: 617px;
+    background: #141414;
+}
+.foot-div{
+
+    margin:auto;
+    width: 1200px;
+    height: 437px;
+
+}
+.flogo-part{
+    padding-top: 90px;
+    width: 430px;
+    height: 22px;
+    display: flex;
+    justify-content: space-between;
+}
+.foot-line{
+    margin: 90px auto;
+    width: 1200px;
+    height: 1px;
+    background: #4D4D4D;
+}
+.foot-para{
+    margin-bottom: 15px;
+    width: 275px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #666666;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    font-family: 'Libre Franklin', sans-serif;
+}
+.categories-list{
+    margin-bottom: 40px;
+    width: 1200px;
+    height: 110px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between ;
+
+}
+.input-part{
+    width: 300px;
+    height: 110px;
+}
+.foot-input{
+    padding:18px 24px ;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #666666;
+    font-family: 'Libre Franklin', sans-serif;
+}
+.foot-btn{
+    margin-left: -5px;
+    padding: 21px 24px;
+    background: #000;
+    color: #fff;
+    font-family: 'Libre Franklin', sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    border: none;
+
+}
+.foot-btn:focus{
+    border: none;
+    background-color: dimgray;
+    border: dimgray;
+}
+.categories-item{
+    width: 155px;
+    height: 110px;
+
+}
+.foot-list{
+    width: 900px;
+    height: 100px;
+    list-style: none;
+    display: flex;
+
+
+}
+.flist-item{
+    width: 225px;
+    height: 129px;
+}
+.item-para{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #fff;
+    font-family: 'Libre Franklin', sans-serif;
+}
+.categories-para{
+    margin-top: 27px ;
+}
